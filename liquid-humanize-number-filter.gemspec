@@ -6,7 +6,7 @@ Gem::Specification.new do |gem|
   gem.description = gem.summary
   gem.authors = ['Leo Adamek']
   gem.email = 'info@mrzen.com'
-  gem.files = ['lib/humanize_number.rb']
+  gem.files = ['lib/liquid-humanize-number.rb']
   gem.homepage = 'http://www.mrzen.com/'
   gem.license = 'GPL-3.0'
 
