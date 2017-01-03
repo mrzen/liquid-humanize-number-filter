@@ -1,0 +1,16 @@
+language: ruby
+
+rvm:
+  - 2.1
+  - 2.2
+  - 2.3.3
+  - ruby-head
+  - jruby-head
+
+sudo: false
+
+addons:
+  apt:
+    packages: - libgmp3-dev
+
+script: "bundle exec rspec spec/humanize_number_spec.rb"
