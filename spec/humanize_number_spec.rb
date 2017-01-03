@@ -1,5 +1,5 @@
 require 'liquid'
-require_relative '../lib/humanize_number'
+require_relative '../lib/liquid-humanize-number'
 
 describe HumanizeNumber do
 
