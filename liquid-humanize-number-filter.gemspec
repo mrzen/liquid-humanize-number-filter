@@ -1,6 +1,6 @@
 Gem::Specification.new do |gem|
   gem.name = 'liquid-humanize-number'
-  gem.version = '1.0.0'
+  gem.version = '1.0.2'
   gem.date = '2017-01-03'
   gem.summary = 'A liquid filter to make numbers more human readable'
   gem.description = gem.summary

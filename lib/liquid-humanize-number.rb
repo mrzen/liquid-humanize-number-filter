@@ -20,4 +20,5 @@ module HumanizeNumber
   # Implement other grouping methods here (e.g. cr) end
 end
 
+require 'liquid'
 Liquid::Template.register_filter(HumanizeNumber)
